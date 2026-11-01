@@ -1,0 +1,32 @@
+name: Build Guiwu IPA
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'Guiwu/**'
+      - 'Guiwu.xcodeproj/**'
+      - 'scripts/**'
+      - '.github/workflows/build-ios.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show Xcode version
+        run: xcodebuild -version
+      - name: Build unsigned device IPA
+        run: bash scripts/build-ipa.sh
+      - name: Upload IPA for Windows signing
+        uses: actions/upload-artifact@v4
+        with:
+          name: Guiwu-unsigned-IPA
+          path: build/Guiwu-unsigned.ipa
+          if-no-files-found: error
+          retention-days: 14
