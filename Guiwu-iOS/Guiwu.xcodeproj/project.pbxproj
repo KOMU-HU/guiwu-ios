@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"13D2E5C653A62F84EB9D5B54" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "DesignSystem.swift";
+			"sourceTree" = "<group>";
+		};
+		"BF983235049EF05CBE6F4D43" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "13D2E5C653A62F84EB9D5B54";
+		};
+		"C9C9142A4C660DE9AF1513A7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "GuiwuApp.swift";
+			"sourceTree" = "<group>";
+		};
+		"086350D173633DD65E51D73D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "C9C9142A4C660DE9AF1513A7";
+		};
+		"739883A9F01538A4AD219EBC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "HomeView.swift";
+			"sourceTree" = "<group>";
+		};
+		"C70387E877A215E4A8397157" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "739883A9F01538A4AD219EBC";
+		};
+		"1C91D3FD66E9C459A1ABD2AC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ItemDetailView.swift";
+			"sourceTree" = "<group>";
+		};
+		"8CC5F16F8D4B34ABBF0FF78A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1C91D3FD66E9C459A1ABD2AC";
+		};
+		"4E71541F43D8BEFED7A16A85" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ItemFormView.swift";
+			"sourceTree" = "<group>";
+		};
+		"257E575AF182274AFC9B9C98" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4E71541F43D8BEFED7A16A85";
+		};
+		"1DBC313E240FAC15B5EC6360" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "ItemStore.swift";
+			"sourceTree" = "<group>";
+		};
+		"AA984D6AC185C78862BD1A9D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "1DBC313E240FAC15B5EC6360";
+		};
+		"DF838C600B8A2068AABAA35B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "OwnedItem.swift";
+			"sourceTree" = "<group>";
+		};
+		"4D92510CC8FEC8FA16CC49A7" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "DF838C600B8A2068AABAA35B";
+		};
+		"8BF729FFE074CAEE622C0292" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "Assets.xcassets";
+			"sourceTree" = "<group>";
+		};
+		"5522B3B3B2EACC1C8F9BEAAC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8BF729FFE074CAEE622C0292";
+		};
+		"A8792157CB4F27FB949C035F" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "Guiwu.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"1455444174429298B0F374B3" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"13D2E5C653A62F84EB9D5B54",
+				"C9C9142A4C660DE9AF1513A7",
+				"739883A9F01538A4AD219EBC",
+				"1C91D3FD66E9C459A1ABD2AC",
+				"4E71541F43D8BEFED7A16A85",
+				"1DBC313E240FAC15B5EC6360",
+				"DF838C600B8A2068AABAA35B",
+				"8BF729FFE074CAEE622C0292",
+			);
+			"path" = "Guiwu";
+			"sourceTree" = "<group>";
+		};
+		"0A3E27B8CA818264D75C8D81" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"A8792157CB4F27FB949C035F",
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"19F479106CE8C3BA8C106518" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"1455444174429298B0F374B3",
+				"0A3E27B8CA818264D75C8D81",
+			);
+			"sourceTree" = "<group>";
+		};
+		"D626F04DF571B9BB2451CBFE" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"BF983235049EF05CBE6F4D43",
+				"086350D173633DD65E51D73D",
+				"C70387E877A215E4A8397157",
+				"8CC5F16F8D4B34ABBF0FF78A",
+				"257E575AF182274AFC9B9C98",
+				"AA984D6AC185C78862BD1A9D",
+				"4D92510CC8FEC8FA16CC49A7",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"951DDECB505D289B8BC956E6" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"5C2473E515024614E403B8B9" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"5522B3B3B2EACC1C8F9BEAAC",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"488864B3D19480A82F7F1786" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG $(inherited)";
+				"ONLY_ACTIVE_ARCH" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"952548237D7F645F11D1E7B6" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"DEVELOPMENT_ASSET_PATHS" = "";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "归物";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"MARKETING_VERSION" = "1.0.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.komuhu.guiwu";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+			};
+			"name" = "Debug";
+		};
+		"35B1014F135DE9B45529B733" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"CLANG_WARN_DOCUMENTATION_COMMENTS" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"GCC_WARN_64_TO_32_BIT_CONVERSION" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "17.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+			};
+			"name" = "Release";
+		};
+		"E2D3A31BEAA1368FC62DA77A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME" = "AccentColor";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"DEVELOPMENT_ASSET_PATHS" = "";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "归物";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_ITSAppUsesNonExemptEncryption" = "NO";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents" = "YES";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone" = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"MARKETING_VERSION" = "1.0.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.komuhu.guiwu";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+			};
+			"name" = "Release";
+		};
+		"7ED5184A5487DF185E3420D0" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"488864B3D19480A82F7F1786",
+				"35B1014F135DE9B45529B733",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"82A58AF6F77EDCFC78A65DA6" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"952548237D7F645F11D1E7B6",
+				"E2D3A31BEAA1368FC62DA77A",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"34A04005BCAF206EEC990BD9" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "82A58AF6F77EDCFC78A65DA6";
+			"buildPhases" = (
+				"D626F04DF571B9BB2451CBFE",
+				"951DDECB505D289B8BC956E6",
+				"5C2473E515024614E403B8B9",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "Guiwu";
+			"productName" = "Guiwu";
+			"productReference" = "A8792157CB4F27FB949C035F";
+			"productType" = "com.apple.product-type.application";
+		};
+		"244210E48437B6556980A702" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastSwiftUpdateCheck" = "1500";
+				"LastUpgradeCheck" = "1500";
+				"TargetAttributes" = {
+					"34A04005BCAF206EEC990BD9" = {
+						"CreatedOnToolsVersion" = "15.0";
+					};
+				};
+			};
+			"buildConfigurationList" = "7ED5184A5487DF185E3420D0";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "zh-Hans";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = (
+				"zh-Hans",
+				"en",
+				"Base",
+			);
+			"mainGroup" = "19F479106CE8C3BA8C106518";
+			"productRefGroup" = "0A3E27B8CA818264D75C8D81";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"34A04005BCAF206EEC990BD9",
+			);
+		};
+	};
+	"rootObject" = "244210E48437B6556980A702";
+}
